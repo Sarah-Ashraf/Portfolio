@@ -126,7 +126,16 @@ color: white;
 }
 
 
-
+@media (max-width:1000px){
+  .navigation {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 10rem;
+    
+  }
+}
 
 
 
@@ -139,6 +148,7 @@ color: white;
   display: flex;
   justify-content: left;
   align-items: center;
+  transform: translateY(-6rem);
 }
 
 .menuToggle {
