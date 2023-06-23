@@ -7,6 +7,21 @@
   /* font-family: 'Roboto', sans-serif; */
 }
 
+/* @keyframes example {
+  0%  {color:#d83092;}
+  100%  {color:white;}
+}
+.animate__bounceIn{
+  color: #d83092;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;    
+  animation-play-state: running; 
+} */
+
+
+
 /*#popupForm {
   position: fixed;
   top: 0;
@@ -126,6 +141,17 @@ color: white;
 }
 
 
+
+/* @media (min-width:200) and (max-width:700){
+  .menuToggle {
+    
+    padding-top: 900000rem;
+  }
+} */
+
+
+/* Floating Social Media */
+
 @media (max-width:1000px){
   .navigation {
     position: relative;
@@ -137,17 +163,12 @@ color: white;
   }
 }
 
-
-
-
-/* Floating Social Media */
-
-
 .navigation {
   position: relative;
   display: flex;
   justify-content: left;
   align-items: center;
+  /* padding-bottom: 200rem; */
   transform: translateY(-6rem);
 }
 
@@ -185,7 +206,7 @@ color: white;
   border-radius: 70px;
   z-index: -1;
   transition: transform 0.5s, width 0.5s, height 0.5s;
-  transition-delay: 1s, 0.5s, 0.5s;
+  transition-delay: 1s, 0.5s, 0.5s; 
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -301,6 +322,7 @@ color: white;
 
 .about-section .sarah_back img {
   margin-left: 20%;
+  rotate: -4deg;
 }
 
 .about-section .sarah_back {
@@ -312,6 +334,7 @@ color: white;
   border-color: #e9329d;
   overflow: hidden;
   text-align: center;
+  rotate: 2deg;
 }
 
 
@@ -339,6 +362,7 @@ color: white;
     
     border-radius: 1% 80% 1% 90%;
     overflow: hidden;
+    
   }
 
   .about-section .sarah_back img {
@@ -511,7 +535,7 @@ color: white;
 
 
 .about-section2{
-  padding-top:10rem;
+  /* padding-top:5rem; */
 }
 
 
