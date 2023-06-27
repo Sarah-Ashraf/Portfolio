@@ -82,10 +82,10 @@
 
 
   <!-- About Section -->
-  <section class="about-section pt-lg-5 pt-sm-0 pb-5 pl-lg-5" id="">
-    <div class="container">
+  <section class="about-section pt-lg-5 pt-sm-0 pb-lg-5 pl-lg-5" id="">
+    <div class="container ">
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-5 align-self-start  ">
+            <div class="col-lg-5 pt-lg-5 align-self-start  ">
                 <h3 class="" style="color:#d83092;">Hi, It's Me</h3>
                 <h2 id="h9" style=" text-align:left;"
                     class="animate__animated animate__slower  animate__bounceIn">I'm Sarah<!-- animate__fadeI -->
@@ -160,11 +160,11 @@
 <!-- About Section -->
 
 <!-- About Section 2 -->
-<section class="about-section2 pt-5 pl-lg-5" id="about">
-    <div class="container pt-5">
+<section class="about-section2 pb-lg-4 pt-lg-4 pl-lg-5" id="about">
+    <div class="container reveal pt-lg-5">
         <div class="row  d-flex justify-content-between ">
             <div class="col-lg-5">
-                <h3 class="pb-3 pt-5">About Me</h3>
+                <h3 class="pb-3 pt-lg-5">About Me</h3>
 
                 <p class="text-wrap text-justify">Hi There! I'm Sarah
                     Ashraf a Full Stack Web Developer having
@@ -828,7 +828,7 @@
 
     <!-- Experience Section -->
     <section class="exp-home" id="experience">
-        <div class="container mt-5">
+        <div class="container  mt-5">
             <h2 class="pt-3" align="center">My Experience</h2>
             
 
@@ -980,7 +980,7 @@
 
 
 
-            <h3 class="pt-5 pb-2">Jobs</h3>
+            <h3 class="pt-5 pb-lg-2">Jobs</h3>
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-12 col-sm-12 d-flex align-items-stretch">
                     <div class="card my-3 w-100">
@@ -1018,11 +1018,11 @@
     <!-- Contact Me -->
     <section class="contact" id="contact">
         <div class="container ">
-            <h2 class="pt-3">Contact </h2>
+            <h2 class="pt-lg-3">Contact </h2>
             <!-- <div id="popupForm" style="display:none;">
                 <!- Your form HTMLcode from the previous section here ->
               </div> -->
-            <div class="row pt-3">
+            <div class="row pt-lg-3">
                 <div class="col-lg-6 col-md-12 col-sm-12 ">
                     <form id="contactform" action="https://formsubmit.io/send/sarahashaher0@gmail.com" method="POST">
                         <input name="_redirect" type="hidden" id="name" value="https://sarah-ashraf.github.io/Portfolio/index.html">
@@ -1181,6 +1181,27 @@
     }
 </script>
     <!-- Social Media -->
+
+    <script>
+        function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+  
+        </script>
 
 </body>
 
