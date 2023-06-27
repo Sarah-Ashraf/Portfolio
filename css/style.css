@@ -43,6 +43,34 @@
   max-width: 500px;
 }*/
 
+/* body {
+  width: 400px;
+  height: 300px;
+  margin: 30px auto;
+  box-shadow: 0 0 2px gray;
+  padding: 20px;
+  overflow: scroll; 
+} */
+
+/* Define the scrollbar style */
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Define the thumb style */
+body::-webkit-scrollbar-thumb {
+   background: linear-gradient(to bottom right, #ee6ab7 0%, #d83092 100%);
+  border-radius: 5px;
+}
+
+/* Define the track style */
+body::-webkit-scrollbar-track:horizontal {
+  background-color: white;
+  box-shadow: inset 0 0 2px 2px gainsboro;
+}
+
+
 
 .form-control_sarah{
   display: block;
@@ -357,8 +385,8 @@ color: white;
 
   .about-section .sarah_back {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 10%;
     
     border-radius: 1% 80% 1% 90%;
     overflow: hidden;
@@ -366,7 +394,7 @@ color: white;
   }
 
   .about-section .sarah_back img {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 9%;
   }
 }
@@ -387,6 +415,9 @@ color: white;
     margin-right: 1%;
     margin-top: -1%;
   }
+
+
+  
 }
 
 
