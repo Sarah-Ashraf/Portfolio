@@ -398,6 +398,16 @@ color: white;
    /* height: 50%; */
     
   }
+
+  .navigation {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 8rem;
+    
+  }
+
 }
 
 @media (min-width:401px) and (max-width: 1400px) {
