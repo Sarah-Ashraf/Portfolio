@@ -385,7 +385,7 @@ color: white;
 
   .about-section .sarah_back {
     position: relative;
-    width: 90%;
+    width: 95%;
     height: 10%;
     
     border-radius: 1% 80% 1% 90%;
@@ -396,6 +396,7 @@ color: white;
   .about-section .sarah_back img {
     margin-left: 2rem;
     margin-top: 9%;
+    
   }
 }
 
@@ -721,6 +722,19 @@ text-align: center;
   background-color: #0087ad;
   color: white;
 }
+
+
+.exp-home .card .bton1 .btn-outline-info {
+  background-color: #283383;
+  color: #283383;
+}
+.exp-home .card .bton1 .btn-outline-info:hover {
+  background-color: #283383;
+  color: white;
+}
+
+
+
 
 
 .exp-home .card .btn-outline-danger {
