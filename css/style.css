@@ -242,7 +242,7 @@ color: white;
   width: 270px;
   height: 70px;
   z-index: 1;
-  transform: translateY(-80px);
+  transform: translateY(80px);/* -80px */
   transition-delay: 0s, 0.5s, 0.5s;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
@@ -252,10 +252,10 @@ color: white;
   position: absolute;
   width: 16px;
   height: 16px;
-  background: #fff;
+  background:#fff;
   /* left: calc(50% - 8px); */
-  left: calc(10% - 0px);
-  bottom: 4px;
+  left: calc(10% - -3.9px);
+  top: -4px;
   transform: rotate(46deg);
   border-radius: 2px;
   transition: 0.5s;
@@ -404,7 +404,7 @@ color: white;
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 2rem;
     
   }
 
