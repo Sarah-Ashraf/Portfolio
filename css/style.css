@@ -384,8 +384,8 @@ color: white;
   .about-section .sarah_back {
     position: relative;
     width: 90%;
-    height: 70vh;
-    
+    height: 60vh;
+    rotate: 13deg;
     border-radius: 1% 80% 1% 90%;
     overflow: hidden;
     
@@ -393,8 +393,9 @@ color: white;
 
   .about-section .sarah_back img {
     margin-left: 2rem;
-    margin-top: -5%;
+    margin-top: -8.6%;
      width: auto;
+     rotate: -15deg;
    /* height: 50%; */
     
   }
