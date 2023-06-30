@@ -619,7 +619,7 @@ color: white;
   rotate: -2deg;
 }
 
-/* .about-section2{
+ .about-section2{
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -636,7 +636,7 @@ color: white;
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
-} */
+} 
 
 
 
