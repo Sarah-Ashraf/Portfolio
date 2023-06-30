@@ -405,7 +405,7 @@ color: white;
     justify-content: left;
     align-items: center;
     /* padding-bottom: 200rem; */
-    transform: translateY(-17rem);
+    transform: translateY(-16rem);/* transform: translateY(-13rem); */
   }
   
   .menuToggle {
@@ -619,7 +619,7 @@ color: white;
   rotate: -2deg;
 }
 
- .about-section2{
+.skills-home{
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -636,7 +636,18 @@ color: white;
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
-} 
+}
+.reveal2{
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  
+}
+
+.reveal2.active{
+  transform: translateX(0);
+  opacity: 1;
+}
 
 
 
@@ -912,17 +923,19 @@ text-align: center;
   animation-timing-function: ease-out;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  
 }
 .progress_html {
   background-color: #dd4b25;
   width: 10%;
 }
 
-#progress-html {
+#progress-html.active {
   -webkit-animation-name: progress-html;
   animation-name: progress-html;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  
 }
 
 @-webkit-keyframes progress-html {
@@ -931,6 +944,7 @@ text-align: center;
   }
   100% {
     width: 90%;
+    
   }
 }
 
@@ -938,11 +952,11 @@ text-align: center;
   background-color: #214ce5;
 }
 
-#progress-css {
+#progress-css.active {
   -webkit-animation-name: progress-css;
   animation-name: progress-css;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-css {
@@ -951,6 +965,7 @@ text-align: center;
   }
   100% {
     width: 80%;
+    
   }
 }
 
@@ -958,11 +973,11 @@ text-align: center;
   background-color: #8611fd;
 }
 
-#progress-boo {
+#progress-boo.active {
   -webkit-animation-name: progress-boo;
   animation-name: progress-boo;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-boo {
@@ -971,6 +986,7 @@ text-align: center;
   }
   100% {
     width: 70%;
+    
   }
 }
 
@@ -978,11 +994,11 @@ text-align: center;
   background-color: #efd81d;
 }
 
-#progress-js {
+#progress-js.active {
   -webkit-animation-name: progress-js;
   animation-name: progress-js;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-js {
@@ -991,6 +1007,7 @@ text-align: center;
   }
   100% {
     width: 50%;
+    
   }
 }
 
@@ -998,11 +1015,11 @@ text-align: center;
   background-color: #7377ad;
 }
 
-#progress-php {
+#progress-php.active {
   -webkit-animation-name: progress-php;
   animation-name: progress-php;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-php {
@@ -1011,6 +1028,7 @@ text-align: center;
   }
   100% {
     width: 80%;
+    
   }
 }
 
@@ -1018,11 +1036,11 @@ text-align: center;
   background-color: #e74122;
 }
 
-#progress-code {
+#progress-code.active {
   -webkit-animation-name: progress-code;
   animation-name: progress-code;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-code {
@@ -1031,17 +1049,18 @@ text-align: center;
   }
   100% {
     width: 80%;
+    
   }
 }
 .progress_git {
   background-color: #e74122;
 }
 
-#progress-git {
+#progress-git.active {
   -webkit-animation-name: progress-git;
   animation-name: progress-git;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-git {
@@ -1050,6 +1069,7 @@ text-align: center;
   }
   100% {
     width: 60%;
+    
   }
 }
 
@@ -1057,11 +1077,11 @@ text-align: center;
   background-color: #00758f;
 }
 
-#progress-sql {
+#progress-sql.active {
   -webkit-animation-name: progress-sql;
   animation-name: progress-sql;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-sql {
@@ -1070,6 +1090,7 @@ text-align: center;
   }
   100% {
     width: 90%;
+    
   }
 }
 
@@ -1077,11 +1098,11 @@ text-align: center;
   background-color: #0c0f35;
 }
 
-#progress-git2 {
+#progress-git2.active {
   -webkit-animation-name: progress-git2;
   animation-name: progress-git2;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-git2 {
@@ -1090,6 +1111,7 @@ text-align: center;
   }
   100% {
     width: 75%;
+    
   }
 }
 
@@ -1097,11 +1119,11 @@ text-align: center;
   background-color: #dc3d00;
 }
 
-#progress-micro {
+#progress-micro.active {
   -webkit-animation-name: progress-micro;
   animation-name: progress-micro;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes progress-micro {
@@ -1110,6 +1132,7 @@ text-align: center;
   }
   100% {
     width: 80%;
+    
   }
 }
 
