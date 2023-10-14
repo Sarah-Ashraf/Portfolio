@@ -8,11 +8,11 @@
 }
 
 /* @keyframes example {
-  0%  {color:#d83092;}
+  0%  {color:#348EDE;}
   100%  {color:white;}
 }
 .animate__bounceIn{
-  color: #d83092;
+  color: #348EDE;
   animation-name: example;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 
 /* Define the thumb style */
 body::-webkit-scrollbar-thumb {
-   background: linear-gradient(to bottom right, #ee6ab7 0%, #d83092 100%);
+   background: linear-gradient(to bottom right, #348EDE 0%, #348EDE 100%);
   border-radius: 5px;
 }
 
@@ -107,7 +107,7 @@ color: white;
 .navbar .nav-item .nav-link:hover {
   color: white;
   /* font-weight: 500; */
-  color: #d83092;
+  color: #348EDE;
   border-radius: 50%;
 }
 
@@ -120,33 +120,33 @@ color: white;
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem #d83092;
+  box-shadow: 0 0 0 0.2rem #348EDE;
 }
 
 .btn-outline-danger {
-  color: #d83092;
+  color: #348EDE;
   background-color: black;
-  border-color: #d83092;
+  border-color: #348EDE;
 }
 
 .btn-outline-danger:focus,
 .btn-outline-danger.focus,
 .btn-outline-danger:hover {
   color: #fff;
-  /* background-color: #d83092; */
-  border-color: #d83092;
+  /* background-color: #348EDE; */
+  border-color: #348EDE;
 }
 
 .btn-outline-danger:focus,
 .btn-outline-danger.focus {
-  box-shadow: 0 0 0 0.2rem #d83092;
+  box-shadow: 0 0 0 0.2rem #348EDE;
 }
 
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled {
   color: #fff;
-  /* background-color: #d83092; */
-  border-color: #d83092;
+  /* background-color: #348EDE; */
+  border-color: #348EDE;
   
 }
 
@@ -154,14 +154,14 @@ color: white;
 .btn-outline-danger:not(:disabled):not(.disabled).active,
 .show>.btn-outline-danger.dropdown-toggle {
   color: #fff;
-  background-color: #d83092;
-  border-color: #d83092;
+  background-color: #348EDE;
+  border-color: #348EDE;
 }
 
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
 .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem #d83092;
+  box-shadow: 0 0 0 0.2rem #348EDE;
 }
 
 .buttons input:focus {
@@ -218,7 +218,7 @@ color: white;
   position: absolute;
   font-size: 2.8em;
   font-weight: 550;
-  color: #d83092;
+  color: #348EDE;
   transition: 1.5s;
 }
 
@@ -326,13 +326,13 @@ color: white;
 
 .about-section .btn-outline-danger,
 .proj-home .btn-outline-danger {
-  color: #e9329d;
-  border-color: #e9329d;
+  color: #348EDE;
+  border-color: #348EDE;
 }
 
 .about-section .btn-outline-danger:hover,
 .proj-home .btn-outline-danger:hover {
-  background-color: #e9329d;
+  background-color: #348EDE;
   color: white;
 }
 
@@ -357,9 +357,11 @@ color: white;
   position: relative;
   width: 100%;
   height: 500px;
-  background: #e9329d;
+  /* background: #348EDE; */
+/* background-repeat: repeat-y; */
+  background-image: url(../images/[fpdl.in]_technology-background-with-hitech-digital_29971-1122_large.jpg);
   border-radius: 1% 80% 1% 90%;
-  border-color: #e9329d;
+  border-color: #348EDE;
   overflow: hidden;
   text-align: center;
   rotate: 2deg;
@@ -429,7 +431,7 @@ color: white;
     position: absolute;
     font-size: 2.8em;
     font-weight: 550;
-    color: #d83092;
+    color: #348EDE;
     transition: 1.5s;
   }
   
@@ -656,7 +658,7 @@ color: white;
 
 
 .about-section2 h3{
-  color: #d83092;
+  color: #348EDE;
 }
 
 .about-section2 .shape {
@@ -693,12 +695,12 @@ color: white;
 
 
 .about-section2 .btn-outline-danger{
-  color: #e9329d;
-  border-color: #e9329d;
+  color: #348EDE;
+  border-color: #348EDE;
 }
 
 .about-section2 .btn-outline-danger:hover{
-  background-color: #e9329d;
+  background-color: #348EDE;
   color: white;
 }
 
@@ -723,7 +725,7 @@ color: white;
 
 
 /* h3 {
-  color:#e9329d;
+  color:#348EDE;
   
   } */
 h2 , .proj-home  h3 {
@@ -754,7 +756,7 @@ text-align: center;
   top: 0;
   left: 0;
   /* box-shadow: 0 5px 15px 0px rgba(54, 119, 131, 0.6); */
-  background-color: #d83092;
+  background-color: #348EDE;
   padding: 0px 10px 0px;
 
 }
@@ -776,7 +778,7 @@ text-align: center;
 .card{
   background-color: black;
   color: white;
-  box-shadow: 0 3px 6px #d83092, 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px #348EDE, 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .proj-home .card .float p{
@@ -789,7 +791,7 @@ text-align: center;
 
 }
 .proj-home .card #p1{
-  background-color: #d83092;
+  background-color: #348EDE;
   border-radius: 50px 15px;
 }
 
@@ -802,7 +804,7 @@ text-align: center;
 }
 
 .proj-home .card span{
-  color: #d83092;
+  color: #348EDE;
 }
 
 .proj-home .card .card-img-top {
@@ -825,12 +827,12 @@ text-align: center;
 
 
 .exp-home .card .btn-outline-danger {
-  border-color: #e9329d;
-  color: #e9329d;
+  border-color: #348EDE;
+  color: #348EDE;
 }
 
 .exp-home .card .btn-outline-danger:hover {
-  background-color: #e9329d;
+  background-color: #348EDE;
   color: white;
 }
 
@@ -1162,12 +1164,12 @@ text-align: center;
 }
 
 .contact .btn-outline-danger{
-  color: #e9329d;
-  border-color: #e9329d;
+  color: #348EDE;
+  border-color: #348EDE;
 }
 
 .contact .btn-outline-danger:hover{
-  background-color: #e9329d;
+  background-color: #348EDE;
   color: white;
 }
 
@@ -1175,7 +1177,7 @@ text-align: center;
 .contact input,.contact textarea{
   background-color: #cc90b300;
   border-color: rgb(32, 32, 32);
-  box-shadow: 0 3px 6px #e798ca, 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px #348EDE, 0 3px 6px rgba(0,0,0,0.23);
 }
 
 /* footer{
@@ -1215,7 +1217,7 @@ footer .copyright-text p {
 }
 
 footer .copyright-text a {
-  color: #d83092;
+  color: #348EDE;
 }
 
 .footer-bottom {
@@ -1234,7 +1236,7 @@ footer .copyright-text a {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background: #d83092;
+  background: #348EDE;
   color: #fff;
   text-align: center;
   text-decoration: none;
