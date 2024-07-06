@@ -1,4 +1,2 @@
 # Portfolio
-Hi, It's Me
-I'm Sarah Ashraf
-Fullstack Developer and CS Instructor
+Versatile Web Developer with expertise in Laravel, CodeIgniter, CSS, Bootstrap, JavaScript, Ajax, HTML, APIs, and WordPress. Specializing in creating robust, user-friendly web applications and websites, I leverage a strong foundation in backend and frontend development to deliver high-performance solutions. Passionate about crafting responsive interfaces and enhancing interactivity, I thrive on creating innovative web experiences that drive results and exceed expectations.
